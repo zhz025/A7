@@ -59,7 +59,7 @@ global.isLogin = function(req,res,next) {
   }
 }
 // Add routes here
-app.get('/', global.isLogin,indexRouter.view);
+app.get('/', indexRouter.view);
 app.get('/Assignment', global.isLogin, indexRouter.Assignment)
 app.get('/calendar', global.isLogin, indexRouter.calendar)
 app.get('/Todolist', global.isLogin, indexRouter.Todolist)
