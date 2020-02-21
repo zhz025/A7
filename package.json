@@ -11,7 +11,7 @@
   "scripts": {
     "start": "node app.js"
   },
-  "main": "serve.js",
+  "main": "server.js",
   "dependencies": {
     "express": "3.x"
   },
